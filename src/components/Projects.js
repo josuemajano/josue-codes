@@ -12,7 +12,7 @@ export const Projects = () => {
             description: "Design & Developement",
             imgUrl: projImg1,
         },
-        {
+        /* {
             title: "Business Startup",
             description: "Design & Developement",
             imgUrl: projImg2,
@@ -21,8 +21,23 @@ export const Projects = () => {
             title: "Business Startup",
             description: "Design & Developement",
             imgUrl: projImg3,
+        } */
+    ]
+    const projects1 = [
+        {
+            title: "Business Startup",
+            description: "Design & Developement",
+            imgUrl: projImg2,
         }
     ]
+    const projects2 = [
+        {
+            title: "Business Startup",
+            description: "Design & Developement",
+            imgUrl: projImg3,
+        }
+    ]
+
     
     return (
         <section className="project" id="project">
@@ -63,7 +78,7 @@ export const Projects = () => {
                             <Tab.Pane eventKey="second">
                             <Row>
                                     {
-                                        projects.map((project, index) => {
+                                        projects1.map((project, index) => {
                                             return (
                                                 <ProjectCard
                                                 key={index}
@@ -77,7 +92,7 @@ export const Projects = () => {
                             <Tab.Pane eventKey="third">
                             <Row>
                                     {
-                                        projects.map((project, index) => {
+                                        projects2.map((project, index) => {
                                             return (
                                                 <ProjectCard
                                                 key={index}
