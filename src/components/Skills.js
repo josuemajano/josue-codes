@@ -12,6 +12,7 @@ import skill8 from "../assets/img/postgresql.png";
 import skill9 from "../assets/img/express.png";
 import skill10 from "../assets/img/redux.png";
 import skill11 from "../assets/img/bootstrap.png";
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
     const responsive = {
@@ -94,6 +95,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
+            <img className="background-image-left" src={colorSharp} />
         </section>
       )
 

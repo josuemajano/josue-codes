@@ -1,19 +1,20 @@
 /* Custom Fonts */
 @font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
-  font-weight: 700;
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
 }
 @font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Medium.ttf');
-  font-weight: 500;
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
 }
 @font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Book.ttf');
-  font-weight: 400;
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
 }
+
 
 /* Default CSS */
 * {
@@ -333,6 +334,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
 
 /* Project CSS */
 .project {
@@ -451,6 +459,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
+}
 
 /* Contact Form CSS */
 .contact {
@@ -524,6 +540,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+
 /* Footer CSS */
 .footer {
   padding: 0 0 50px 0;
@@ -542,8 +559,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+.text-center {
+  text-align:right;
+  padding-top: 20px;
+}
 
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -580,4 +601,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   to {
     transform: rotate(360deg);
   }
-}
+} */
